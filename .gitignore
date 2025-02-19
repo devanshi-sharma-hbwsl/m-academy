@@ -60,7 +60,6 @@ atlassian*
 !/pub/media/sitemap/.htaccess
 /pub/static/*
 !/pub/static/.htaccess
-
 /var/*
 !/var/.htaccess
 /vendor/*
@@ -75,7 +74,7 @@ pub/media/magefan_blog/*
 pub/media/mageplaza/*
 setupInstall.sh
 auth.json
-
+var/log
 var/
 generated/
 vendor/
