@@ -14,10 +14,6 @@ atlassian*
 /pub/sitemap.xml
 /.idea
 /.gitattributes
-/app/config_sandbox
-/app/etc/config.php
-/app/etc/env.php
-/app/code/Magento/TestModule*
 /lib/internal/flex/uploader/.actionScriptProperties
 /lib/internal/flex/uploader/.flexProperties
 /lib/internal/flex/uploader/.project
@@ -64,7 +60,7 @@ atlassian*
 !/pub/media/sitemap/.htaccess
 /pub/static/*
 !/pub/static/.htaccess
-var/
+
 /var/*
 !/var/.htaccess
 /vendor/*
@@ -74,15 +70,20 @@ var/
 .DS_Store
 
 .env
-app/code/Mageplaza/*
 pub/media/blog/*
 pub/media/magefan_blog/*
 pub/media/mageplaza/*
 setupInstall.sh
 auth.json
 
-
+var
+generated
+vendor
+.editorconfig
+.htaccess
+.htaccess.sample
+.php-cs-fixer.dist.php
+.user.ini
 dev.cicero-dev.com-key.pem
 dev.cicero-dev.com.pem
-mkcert-v1.4.4-linux-amd64
-
+mkcert-v1.4.4-linux-amd64\
