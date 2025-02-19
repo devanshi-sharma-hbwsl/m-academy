@@ -76,9 +76,9 @@ pub/media/mageplaza/*
 setupInstall.sh
 auth.json
 
-var
-generated
-vendor
+var/
+generated/
+vendor/
 .editorconfig
 .htaccess
 .htaccess.sample
